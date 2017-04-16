@@ -1,5 +1,5 @@
 TLS Detect Pin
-D
+-------------------
 Para executar com o Pin:
 >pin.exe -- Debug/TLS_DetectPin_V1.exe
 
