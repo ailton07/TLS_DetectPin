@@ -1,5 +1,22 @@
 TLS Detect Pin
--------------------
+===================
+
+Binário criado para detectar quando está sendo executado/analisado pelo PIN.
+
+Requirements
+-------------
+> - Visual Studio 2010
+> -  Pin funcional de acordo com a documentação [Intel] [1].
+
+----------
+
+Executing
+-------------
+
+O projeto inclui o executável já buildado.
+Para testar sem o Pin, basta dar dois cliques em:
+> Debug/TLS_DetectPin_V1.exe
+
 Para executar com o Pin:
 >pin.exe -- Debug/TLS_DetectPin_V1.exe
 
