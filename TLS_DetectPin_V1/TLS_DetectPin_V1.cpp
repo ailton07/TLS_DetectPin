@@ -26,7 +26,7 @@ int count32tls()
 		lpvData = TlsGetValue(dwTlsIndex);
 		value = reinterpret_cast<int>(lpvData);
 
-		// printf("TLS[%d] = lpvData=%lx\n", 
+		// printf("TLS[%d] = lpvData=%lx\n", dwTlsIndex, value);
 		if(value != 0) {
 			quantidade++;
 			// printf("TLS[%d] = lpvData igual a zero\n", dwTlsIndex);
