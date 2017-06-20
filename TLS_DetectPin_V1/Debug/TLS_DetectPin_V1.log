@@ -1,21 +1,20 @@
-﻿Build started 21/04/2017 10:45:29.
+﻿Build started 19/06/2017 22:58:53.
      1>Project "C:\Users\ailto\Documents\GitHub\TLS_DetectPin\TLS_DetectPin_V1\TLS_DetectPin_V1.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\TLS_DetectPin_V1.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TLS_DetectPin_V1.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TLS_DetectPin_V1.cpp
          TLS_DetectPin_V1.cpp
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TLS_DetectPin_V1.exe.embed.manifest.res" Debug\TLS_DetectPin_V1_manifest.rc 
+         All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TLS_DetectPin_V1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.lib" /MACHINE:X86 Debug\TLS_DetectPin_V1.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\TLS_DetectPin_V1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.lib" /MACHINE:X86 Debug\TLS_DetectPin_V1.exe.embed.manifest.res
          Debug\TLS_DetectPin_V1.obj
        Manifest:
-         Deleting file "Debug\TLS_DetectPin_V1.exe.embed.manifest".
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TLS_DetectPin_V1.exe.embed.manifest" /manifest Debug\TLS_DetectPin_V1.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TLS_DetectPin_V1.exe.embed.manifest" /manifest Debug\TLS_DetectPin_V1.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TLS_DetectPin_V1.exe.embed.manifest.res" Debug\TLS_DetectPin_V1_manifest.rc 
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TLS_DetectPin_V1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.lib" /MACHINE:X86 Debug\TLS_DetectPin_V1.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\TLS_DetectPin_V1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.lib" /MACHINE:X86 Debug\TLS_DetectPin_V1.exe.embed.manifest.res
          Debug\TLS_DetectPin_V1.obj
          TLS_DetectPin_V1.vcxproj -> C:\Users\ailto\Documents\GitHub\TLS_DetectPin\Debug\TLS_DetectPin_V1.exe
        FinalizeBuildStatus:
@@ -25,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.26
+Time Elapsed 00:00:06.28
