@@ -22,11 +22,10 @@ int count32tls()
 
 	for(dwTlsIndex = 0; dwTlsIndex < 32; dwTlsIndex++)
 	{
-
 		lpvData = TlsGetValue(dwTlsIndex);
 		value = reinterpret_cast<int>(lpvData);
 
-		// printf("TLS[%d] = lpvData=%lx\n", dwTlsIndex, value);
+		printf("TLS[%d] = lpvData=%lx\n", dwTlsIndex, value);
 		if(value != 0) {
 			quantidade++;
 			// printf("TLS[%d] = lpvData igual a zero\n", dwTlsIndex);
@@ -36,9 +35,39 @@ int count32tls()
 	return quantidade;
 }
 
+void write32tls()
+{
+	printf("\t== write32tls ==\n");
+	int quantidade = 0;
+	DWORD dwTlsIndex;
+	LPVOID newValue; 
+	int value;
+
+	newValue = (LPVOID) LocalAlloc(LPTR, 256); 
+
+	// O Pin utiliza as primeiras posições
+	for(dwTlsIndex = 0; dwTlsIndex < 6; dwTlsIndex++)
+	{
+		value = reinterpret_cast<int>(TlsGetValue(dwTlsIndex));
+		printf("TLS[%d] = lpvData=%lx\n", dwTlsIndex, value);
+
+		if(value != 0) {
+			if (! TlsSetValue(dwTlsIndex, newValue)) 
+				ErrorExit("TlsSetValue error"); 
+		}
+
+	}
+
+}
+
 int main()
 {
 	int quantidade = 0;
+
+	DWORD dwTlsIndex;
+
+	// Metodo para causar o crash do Pin
+	// write32tls();
 
 	quantidade = count32tls();
 
